@@ -13,3 +13,20 @@
 #13
 #14
 #FizzBuzz
+
+thislist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+n = int(input())
+count3,count5 = 1,1
+for x in range(1,n+1):
+    print("Fizzbuzz")
+    count3,count5 = 0,0
+elif count3 == 3:
+    print("Fizz")
+    couunt3 = 0
+elif count5 == 5:
+    print("Buzz")
+    count5 = 0 
+else:
+    print(x)
+count3 += 1
+count5 += 1
